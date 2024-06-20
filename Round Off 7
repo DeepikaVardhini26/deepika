@@ -1,0 +1,28 @@
+Write a program to get a float value from the user and display it in the below-mentioned format. HINT: Use ceil() and floor() functions.
+
+code:
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float a;
+
+    scanf("%f",&a);
+
+    int b=(int)a;
+
+    float c=ceil(a);
+
+    float d=floor(a);
+
+    printf("%d\n%.1f\n%.1f",b,c,d);
+
+    return 0;
+
+}
+    
+
